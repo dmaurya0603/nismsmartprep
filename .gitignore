@@ -1,0 +1,18 @@
+# Node
+node_modules/
+
+# Build outputs
+client/dist/
+server/dist/
+
+# Env & secrets
+.env
+.env.*
+*.pem
+
+# Cloud configs not needed on AWS
+.vercel/
+render.yaml
+
+# OS
+.DS_Store

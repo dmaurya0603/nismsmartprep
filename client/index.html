@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/webp" href="/logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NISM Smart Prep - Prof. Sheetal Kunder Academy</title>
+    <meta name="description" content="Practice, Learn, and Assess Your Readiness for NISM Research Analyst (XV) Examination" />
+    <meta property="og:title" content="NISM Smart Prep - Prof. Sheetal Kunder Academy" />
+    <meta property="og:description" content="Practice, Learn, and Assess Your Readiness for NISM Research Analyst (XV) Examination" />
+    <meta property="og:image" content="https://www.nismsmartprep.in/logo.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.nismsmartprep.in" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NISM Smart Prep" />
+    <meta name="twitter:description" content="Complete NISM exam preparation with interactive practice and assessment" />
+    <meta name="twitter:image" content="https://www.nismsmartprep.in/logo.webp" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2RX8BLFTH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-H2RX8BLFTH');
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for(let registration of registrations) {
+            registration.unregister();
+          }
+        });
+      }
+    </script>
+    <script type="module" src="/src/main.tsx?v=2"></script>
+  </body>
+</html>
